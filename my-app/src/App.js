@@ -1,13 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Form } from "./components/EverythingForms/Form";
 
 function App() {
-  return (
-    <div className="wrapper">
-      <h1>How About Them Apples</h1>
-      <form></form>
-    </div>
-  );
+  return <Form />;
 }
 
 export default App;
